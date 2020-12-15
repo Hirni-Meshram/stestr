@@ -27,10 +27,10 @@ matrix:
 #      python: "3.6"
 #      env:
 #        - TWINE_USERNAME=stestr-release
-      install: pip install -U twine
-      script:
-        - python3 setup.py sdist bdist_wheel
-        - twine upload dist/stestr*
+#      install: pip install -U twine
+#      script:
+#        - python3 setup.py sdist bdist_wheel
+#        - twine upload dist/stestr*
 
 cache:
   directories:
